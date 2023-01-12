@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Task List</h1>
+        <form id="newTaskForm">
+            <input 
+                type="text" 
+                placeholder="What's your tasks?" 
+                id="newTaskInput"/>
+            <input 
+            type="submit" 
+            id="newTaskSubmit"
+            value="Add Task"/>
+        </form>
+    </header>
+
+    <main>
+        <section class="taskList">
+            <h2>Tasks</h2>
+
+            <div class="border">
+                <div id="tasks">
+                    <!-- <div class="task">
+                        <div class="content">
+                            <input 
+                                type="text"
+                                class="text"
+                                value="Test task"
+                                readonly
+                            />
+                        </div>
+                        <div class="actions">
+                            <button class="done">Done</button>
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
